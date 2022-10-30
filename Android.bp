@@ -58,9 +58,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uceShimService",
+	name: "QtiTelephonyService",
 	owner: "razer",
-	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -69,9 +69,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QtiTelephonyService",
+	name: "uceShimService",
 	owner: "razer",
-	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
