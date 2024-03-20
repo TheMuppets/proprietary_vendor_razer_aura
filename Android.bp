@@ -53,6 +53,7 @@ android_app_import {
 	name: "TrustZoneAccessService",
 	owner: "razer",
 	apk: "proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
