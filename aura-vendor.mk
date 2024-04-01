@@ -929,5 +929,4 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     com.qti.dpmframework \
     dpmapi \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook
