@@ -497,7 +497,6 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmpbase \
-    libpn553_fw \
     libqtigef \
     libsmwrapper \
     libsnsapi \
@@ -571,6 +570,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
     libpdmapper \
+    libpn553_fw \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
