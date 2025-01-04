@@ -273,16 +273,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libQTEEConnector_vendor \
@@ -471,8 +461,8 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     libFileMux_proprietary \
-    libOmxDsdDec \
     libOmxVideoDSMode \
+    libOmxVpp \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -490,7 +480,6 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libcom.qti.chinodeutils \
     libcsd-client \
-    libdsd2pcm \
     libdualcam_optical_zoom \
     libdualcam_optical_zoom_control \
     libfastcrc \
