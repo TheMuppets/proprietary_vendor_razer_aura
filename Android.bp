@@ -14300,6 +14300,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib/libantradio.so",
             ],
             shared_libs: [
+                "libnativehelper_shim",
                 "libnativehelper",
                 "libbase",
                 "libhidlbase",
@@ -14321,6 +14322,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libantradio.so",
             ],
             shared_libs: [
+                "libnativehelper_shim",
                 "libnativehelper",
                 "libbase",
                 "libhidlbase",
@@ -14339,7 +14341,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
