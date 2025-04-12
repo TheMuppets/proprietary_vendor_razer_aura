@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
-    vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/razer/aura/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
@@ -261,7 +260,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
-    vendor.qti.hardware.factory@1.0-impl \
     vendor.qti.hardware.iop@2.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
@@ -392,7 +390,6 @@ PRODUCT_PACKAGES += \
     vendor.display.postproc@1.0 \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
-    vendor.qti.hardware.factory@1.0 \
     vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
@@ -723,7 +720,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.factory@1.0-service \
     vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.perf@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
